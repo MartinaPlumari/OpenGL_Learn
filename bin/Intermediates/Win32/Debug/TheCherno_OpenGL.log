@@ -1,5 +1,5 @@
 ﻿  Application.cpp
-LINK : warning LNK4098: la libreria predefinita 'LIBCMT' è in conflitto con l'utilizzo di altre librerie; usare /NODEFAULTLIB:libreria
-LINK : warning LNK4098: la libreria predefinita 'MSVCRT' è in conflitto con l'utilizzo di altre librerie; usare /NODEFAULTLIB:libreria
-glew32s.lib(glew.obj) : warning LNK4099: impossibile trovare il PDB 'vc120.pdb' con 'glew32s.lib(glew.obj)' o in 'E:\MARTINA\Coding\OpenGL\TheCherno_OpenGL\bin\Win32\Debug\vc120.pdb'; oggetto collegato senza informazioni di debug
+LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library
+LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+glew32s.lib(glew.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'glew32s.lib(glew.obj)' or at 'E:\MARTINA\Coding\OpenGL\TheCherno_OpenGL\bin\Win32\Debug\vc120.pdb'; linking object as if no debug info
   TheCherno_OpenGL.vcxproj -> E:\MARTINA\Coding\OpenGL\TheCherno_OpenGL\bin\Win32\Debug\TheCherno_OpenGL.exe
